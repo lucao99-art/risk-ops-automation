@@ -1,0 +1,35 @@
+🚀 Risk Operations Productivity Tracker
+Este projeto foi desenvolvido para automatizar a recolha e análise de métricas de produtividade numa equipa de Risk Operations (N1). A solução substitui o registo manual por um sistema persistente em SQLite, gerando relatórios de performance automáticos com Pandas.
+
+📋 Contexto do Projeto
+Durante a minha atuação como Analista de Risco N2, identifiquei um gargalo no acompanhamento da produtividade da equipa. Este script foi criado para:
+
+Centralizar os dados de atendimentos de forma segura.
+
+Automatizar o cálculo de KPI (Chats por hora) baseado numa escala 12x36.
+
+Gerar relatórios (CSV) prontos para serem integrados em ferramentas de BI ou enviados para a gestão.
+
+🛠️ Tecnologias Utilizadas
+Python 3.x: Linguagem principal para a lógica de automação.
+
+Pandas: Biblioteca utilizada para manipulação de dados e geração de relatórios.
+
+SQLite: Banco de dados relacional para persistência de informações.
+
+Programação Orientada a Objetos (POO): Estrutura utilizada para garantir a escalabilidade e manutenção do código.
+
+⚙️ Como Executar
+
+Clone o repositório:
+git clone https://github.com/teu-usuario/risk-ops-automation.git
+
+Instale as dependências:
+pip install pandas
+
+Execute a aplicação:
+python app.py
+
+
+👨‍💻 Sobre o Autor
+Sou estudante de Engenharia de Software na UniCesumar (3º semestre). Com experiência prévia como Analista de Negócios e Operações em Fintechs (Neon e Pay4Fun), foco o meu desenvolvimento em criar soluções de Backend que resolvam problemas reais de negócio.
